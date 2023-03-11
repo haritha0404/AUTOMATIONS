@@ -1,10 +1,6 @@
 import pyodbc
 import xlsxwriter
 from xlsxwriter import Workbook
-#server1 = 'ebitg-hpi-adbsvr-abcr.database.windows.net'
-#database1 = 'ebitg-hpi-adb-abcr'
-#username1 = 'srvc_rapid_radical_reader'
-#password1 = '{Admin@007}'   
 driver1= '{ODBC Driver 17 for SQL Server}'
 print("Enter the server1")
 server1 = input()
